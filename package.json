@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontend": "cd client && npm start",
@@ -11,15 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quangdo14499/MERN-project.git"
+    "url": "git+https://github.com/quangdo14499/Docker-MERN.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/quangdo14499/MERN-project/issues"
+    "url": "https://github.com/quangdo14499/Docker-MERN/issues"
   },
-  "homepage": "https://github.com/quangdo14499/MERN-project#readme",
-  "dependencies": {
-    "concurrently": "^7.6.0"
-  }
+  "homepage": "https://github.com/quangdo14499/Docker-MERN#readme"
 }
